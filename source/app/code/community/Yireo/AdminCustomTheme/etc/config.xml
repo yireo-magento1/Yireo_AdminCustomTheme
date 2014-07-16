@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Yireo AdminCustomTheme for Magento 
+ *
+ * @package     Yireo_AdminCustomTheme
+ * @author      Yireo (http://www.yireo.com/)
+ * @copyright   Copyright (C) 2014 Yireo (http://www.yireo.com/)
+ * @license     Open Source License (OSL v3)
+ */
+-->
+<config>
+
+    <modules>
+        <Yireo_AdminCustomTheme>
+            <version>1.0.0</version>
+        </Yireo_AdminCustomTheme>
+    </modules>
+
+    <global>
+        <helpers>
+            <admincustomtheme>
+                <class>Yireo_AdminCustomTheme_Helper</class>
+            </admincustomtheme>
+        </helpers>
+	</global>
+
+    <stores>
+        <admin>
+            <design>
+                <package>
+                    <name>custom</name>
+                </package>
+                <theme>
+                    <default>custom</default>
+                </theme>
+            </design>
+        </admin>
+    </stores>
+</config>
